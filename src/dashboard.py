@@ -144,7 +144,7 @@ st.title("Consumo de energía en la industria del acero")
 st.markdown("""
 Este dashboard muestra el análisis y la predicción del **consumo de energía (kWh)** 
 en la industria del acero, utilizando datos de **DAEWOO Steel Co. Ltd (Gwangyang, South Korea)** 
-y un modelo de **Random Forest** para predicción.
+y una lista de diferentes modelos para realizar predicciones.
 """)
 
 st.sidebar.header("Filtros")
