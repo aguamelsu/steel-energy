@@ -19,7 +19,7 @@ import plotly.graph_objects as go
 @st.cache_data
 
 def load_and_process():
-    df_raw = pd.read_csv('data/raw/Steel_industry_data.csv')
+    df_raw = pd.read_csv('../data/raw/Steel_industry_data.csv')
 
     df_baking = df_raw.copy()
 
